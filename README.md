@@ -1,6 +1,6 @@
 # Comet (comet-ml)
 
-Comet is an ML platform for experiment tracking, model management, monitoring, and LLM evaluation (Opik). Strong support for both classical ML and generative AI.
+Comet is an MLOps and GenAI observability platform. It exposes a REST API (read, write, and Model Production Monitoring endpoints) plus a Python SDK. Opik is the GenAI observability product line; MLOps is the classical experiment-tracking line.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/apis.yml)
 
@@ -9,8 +9,12 @@ Comet is an ML platform for experiment tracking, model management, monitoring, a
 ## Type
 - **x-type:** company
 
-## Tags:
- - ML, MLOps, Experiment Tracking, Model Management, Monitoring
+## APIs
+- **Comet REST API** - Read, write, and MPM endpoints. Authorization header API key. Workspaces, projects, experiments, model registry.
+- **Opik (GenAI Observability)** - Spans/traces, evaluations, prompts, datasets. Open-source, self-hostable.
+
+## Tags
+- ML, MLOps, GenAI, Experiment Tracking, Model Monitoring
 
 ## Timestamps
 - **Created:** 2026-05-08
@@ -18,9 +22,19 @@ Comet is an ML platform for experiment tracking, model management, monitoring, a
 
 ## Common Properties
 - [Website](https://www.comet.com/)
-- [Plans](plans/comet-ml-plans-pricing.yml) — placeholder, pipeline reconciles later
-- [RateLimits](rate-limits/comet-ml-rate-limits.yml) — placeholder
-- [FinOps](finops/comet-ml-finops.yml) — FOCUS-aligned placeholder
+- [Documentation](https://www.comet.com/docs/)
+- [Pricing](https://www.comet.com/site/pricing/)
+- [GitHub](https://github.com/comet-ml)
+- [Plans](plans/comet-ml-plans-pricing.yml)
+- [RateLimits](rate-limits/comet-ml-rate-limits.yml)
+- [FinOps](finops/comet-ml-finops.yml)
+
+## Notes
+- Pricing reconciled (research): two product lines.
+  - Opik: Open Source free; Free Cloud (10 users, 25k spans/mo); Pro Cloud $19/mo (50 users, 100k spans); Enterprise custom.
+  - MLOps: Free (1 user, 100 GB); Pro $19/user/mo (10 users, 1500 hours, 500 GB); Enterprise custom.
+- Free Pro plan available for academic users.
+- All plans include "unlimited API rate limits" per the pricing page.
 
 ## Maintainers
 **FN:** Kin Lane

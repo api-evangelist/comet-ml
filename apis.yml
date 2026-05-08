@@ -3,21 +3,69 @@ url: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/a
 name: Comet
 x-type: company
 description: >-
-  Comet is an ML platform for experiment tracking, model management, monitoring, and LLM evaluation (Opik). Strong support for both classical ML and generative AI.
+  Comet is an MLOps and GenAI observability platform. It exposes a REST API (read,
+  write, and Model Production Monitoring endpoints) plus a Python SDK. Opik is the
+  GenAI observability product line; MLOps is the classical experiment-tracking line.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - ML
   - MLOps
+  - GenAI
   - Experiment Tracking
-  - Model Management
-  - Monitoring
+  - Model Monitoring
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: comet-ml:comet-rest-api
+    name: Comet REST API
+    humanURL: https://www.comet.com/docs/v2/api-and-sdk/rest-api/overview/
+    baseURL: https://www.comet.com/api/rest/v2
+    tags:
+      - REST
+      - Experiments
+      - Projects
+      - Workspaces
+      - Model Registry
+    description: >-
+      The Comet REST API exposes read endpoints (workspace, project, experiment data),
+      write endpoints (data submission), and Model Production Monitoring (MPM) endpoints.
+      Authentication uses an API key via the `Authorization` HTTP header.
+    properties:
+      - type: Documentation
+        url: https://www.comet.com/docs/v2/api-and-sdk/rest-api/overview/
+      - type: Authentication
+        url: https://www.comet.com/docs/v2/api-and-sdk/rest-api/overview/
+      - type: SDK
+        title: Python (comet_ml)
+        url: https://www.comet.com/docs/v2/api-and-sdk/python-sdk/overview/
+  - aid: comet-ml:opik
+    name: Opik (GenAI Observability)
+    humanURL: https://www.comet.com/docs/opik/
+    baseURL: https://www.comet.com/opik/api
+    tags:
+      - GenAI
+      - Tracing
+      - Evaluation
+      - Spans
+    description: >-
+      Opik is Comet's open-source GenAI observability product. It provides spans-based
+      tracing, evaluations, prompt management, and dataset features over an HTTP API
+      and Python SDK. Self-hostable.
+    properties:
+      - type: Documentation
+        url: https://www.comet.com/docs/opik/
+      - type: SourceCode
+        url: https://github.com/comet-ml/opik
 common:
   - type: Website
     url: https://www.comet.com/
+  - type: Portal
+    url: https://www.comet.com/docs/
+  - type: Pricing
+    url: https://www.comet.com/site/pricing/
+  - type: GitHubOrganization
+    url: https://github.com/comet-ml
   - type: Plans
     url: plans/comet-ml-plans-pricing.yml
   - type: RateLimits
