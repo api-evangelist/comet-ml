@@ -1,0 +1,29 @@
+aid: comet-ml
+url: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/apis.yml
+name: Comet
+x-type: company
+description: >-
+  Comet is an ML platform for experiment tracking, model management, monitoring, and LLM evaluation (Opik). Strong support for both classical ML and generative AI.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - ML
+  - MLOps
+  - Experiment Tracking
+  - Model Management
+  - Monitoring
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.comet.com/
+  - type: Plans
+    url: plans/comet-ml-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/comet-ml-rate-limits.yml
+  - type: FinOps
+    url: finops/comet-ml-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
