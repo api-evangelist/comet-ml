@@ -1,7 +1,7 @@
 aid: comet-ml
 url: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/apis.yml
 name: Comet
-x-type: company
+kind: company
 description: >-
   Comet is an MLOps and GenAI observability platform. It exposes a REST API (read,
   write, and Model Production Monitoring endpoints) plus a Python SDK. Opik is the
