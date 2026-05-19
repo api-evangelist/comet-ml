@@ -14,7 +14,7 @@ tags:
   - Experiment Tracking
   - Model Monitoring
 created: '2026-05-08'
-modified: '2026-05-08'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: comet-ml:comet-rest-api
@@ -72,6 +72,12 @@ common:
     url: rate-limits/comet-ml-rate-limits.yml
   - type: FinOps
     url: finops/comet-ml-finops.yml
+  - name: MCP Server
+    url: https://github.com/comet-ml/opik-mcp
+    type: MCPServer
+  - name: Agent Skills
+    url: https://github.com/comet-ml/opik-skills
+    type: AgentSkill
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
