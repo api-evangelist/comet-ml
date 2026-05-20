@@ -58,6 +58,8 @@ apis:
       - type: SourceCode
         url: https://github.com/comet-ml/opik
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/comet-ml
   - type: Website
     url: https://www.comet.com/
   - type: Portal
