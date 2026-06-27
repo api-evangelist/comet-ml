@@ -36,7 +36,7 @@ apis:
         url: https://www.comet.com/docs/v2/api-and-sdk/rest-api/overview/
       - type: Authentication
         url: https://www.comet.com/docs/v2/api-and-sdk/rest-api/overview/
-      - type: SDK
+      - type: SDKs
         title: Python (comet_ml)
         url: https://www.comet.com/docs/v2/api-and-sdk/python-sdk/overview/
   - aid: comet-ml:opik
@@ -79,7 +79,7 @@ common:
     type: MCPServer
   - name: Agent Skills
     url: https://github.com/comet-ml/opik-skills
-    type: AgentSkill
+    type: AgentSkills
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
