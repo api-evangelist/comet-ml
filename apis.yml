@@ -58,6 +58,10 @@ apis:
       - type: SourceCode
         url: https://github.com/comet-ml/opik
 common:
+  - type: TrustCenter
+    url: security/comet-ml-trust-center.yml
+  - type: DomainSecurity
+    url: security/comet-ml-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/comet-ml
   - type: Website
@@ -80,6 +84,8 @@ common:
   - name: Agent Skills
     url: https://github.com/comet-ml/opik-skills
     type: AgentSkills
+  - url: https://www.comet.com/site/blog/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
