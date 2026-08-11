@@ -70,6 +70,15 @@ apis:
       - type: SourceCode
         url: https://github.com/comet-ml/opik
 common:
+  - type: IssueTracker
+    url: https://github.com/comet-ml/opik/issues
+  - type: Releases
+    url: https://github.com/comet-ml/opik/releases
+  - type: ContributionGuide
+    url: https://github.com/comet-ml/opik/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/comet-ml/opik/blob/main/LICENSE
   - type: TrustCenter
     url: security/comet-ml-trust-center.yml
   - type: DomainSecurity
