@@ -36,6 +36,12 @@ apis:
     tags:
       - REST
       - Experiments
+      - Project
+      - Workspaces
+      - Model Registry
+    tags_raw:
+      - REST
+      - Experiments
       - Projects
       - Workspaces
       - Model Registry
