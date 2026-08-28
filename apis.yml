@@ -6,6 +6,19 @@ description: >-
   Comet is an MLOps and GenAI observability platform. It exposes a REST API (read,
   write, and Model Production Monitoring endpoints) plus a Python SDK. Opik is the
   GenAI observability product line; MLOps is the classical experiment-tracking line.
+deliveryModel:
+  model: open-core
+  license: Apache-2.0
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
