@@ -33,6 +33,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comet-ml.png
 tags:
+  - Machine-Learning
+  - MLOps
+  - Generative AI
+  - Experiment Tracking
+  - Model Monitoring
+tags_raw:
   - ML
   - MLOps
   - GenAI
@@ -50,7 +56,7 @@ apis:
       - REST
       - Experiments
       - Project
-      - Workspaces
+      - Workspace
       - Model Registry
     tags_raw:
       - REST
@@ -75,6 +81,11 @@ apis:
     humanURL: https://www.comet.com/docs/opik/
     baseURL: https://www.comet.com/opik/api
     tags:
+      - Generative AI
+      - Tracing
+      - Evaluation
+      - Spans
+    tags_raw:
       - GenAI
       - Tracing
       - Evaluation
