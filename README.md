@@ -1,4 +1,4 @@
-# Comet (comet-ml)
+# Comet
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,41 +66,120 @@
 
 Comet is an MLOps and GenAI observability platform. It exposes a REST API (read, write, and Model Production Monitoring endpoints) plus a Python SDK. Opik is the GenAI observability product line; MLOps is the classical experiment-tracking line.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/apis.yml)
+**Areas:** Machine Learning · MLOps · Generative AI · Experiment Tracking · Model Monitoring
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=comet-ml-api-evangelist&utm_content=repo)
+## Comet on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for Comet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/comet-ml/](https://apis.io/providers/comet-ml/)** — or go straight to one of the APIs or properties below.
 
-## APIs
-- **Comet REST API** - Read, write, and MPM endpoints. Authorization header API key. Workspaces, projects, experiments, model registry.
-- **Opik (GenAI Observability)** - Spans/traces, evaluations, prompts, datasets. Open-source, self-hostable.
+### APIs (2)
 
-## Tags
-- ML, MLOps, GenAI, Experiment Tracking, Model Monitoring
+- [Comet REST API](https://apis.io/apis/comet-ml/comet-rest-api/) — The Comet REST API exposes read endpoints (workspace, project, experiment data), write endpoints (data submission), and Model Production Monitoring (MPM)…
+- [Opik (GenAI Observability)](https://apis.io/apis/comet-ml/opik/) — Opik is Comet's open-source GenAI observability product. It provides spans-based tracing, evaluations, prompt management, and dataset features over an HTTP…
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+### Published properties
 
-## Common Properties
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (2)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [comet-ml](https://apis.io/servers/comet-ml/comet-ml/)
+- [MCP Server](https://apis.io/servers/comet-ml/mcp-server/)
+
+#### Agent skills (2)
+
+Agent skills built on the API.
+
+- [instrument](https://apis.io/agent-skills/comet-ml/instrument/)
+- [opik](https://apis.io/agent-skills/comet-ml/opik/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Comet Ml Domain Security](https://apis.io/security/comet-ml/comet-ml-domain-security/)
+- [Comet Ml Trust Center](https://apis.io/security/comet-ml/comet-ml-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Comet Ml Plans Pricing](https://apis.io/plans/comet-ml/comet-ml-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Comet Ml Rate Limits](https://apis.io/rate-limits/comet-ml/comet-ml-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Comet Ml Finops](https://apis.io/finops/comet-ml/comet-ml-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.comet.com/)
-- [Documentation](https://www.comet.com/docs/)
 - [Pricing](https://www.comet.com/site/pricing/)
+- [Blog](https://www.comet.com/site/blog/feed/)
 - [GitHub](https://github.com/comet-ml)
-- [Plans](plans/comet-ml-plans-pricing.yml)
-- [RateLimits](rate-limits/comet-ml-rate-limits.yml)
-- [FinOps](finops/comet-ml-finops.yml)
 
-## Notes
-- Pricing reconciled (research): two product lines.
-  - Opik: Open Source free; Free Cloud (10 users, 25k spans/mo); Pro Cloud $19/mo (50 users, 100k spans); Enterprise custom.
-  - MLOps: Free (1 user, 100 GB); Pro $19/user/mo (10 users, 1500 hours, 500 GB); Enterprise custom.
-- Free Pro plan available for academic users.
-- All plans include "unlimited API rate limits" per the pricing page.
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 26.3** — thin · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 23.7 |
+
+**Agent readiness 18.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 15.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/comet-ml/](https://apis.io/providers/comet-ml/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Comet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/comet-ml/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
